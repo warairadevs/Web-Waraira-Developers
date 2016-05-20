@@ -17,7 +17,7 @@ body{
 	font-family: 'Muli', sans-serif;
 	font-size: 16px;
 	line-height: 1.6em;
-	
+
 }
 
 h1 {
@@ -120,12 +120,12 @@ Home sections
 .section-heading {
 	margin-bottom: 70px;
 }
-	
+
 .section-heading h2 {
 	font-size: 38px;
 	text-transform: uppercase;
 }
-	
+
 .section-heading .heading-line {
 	margin:0 auto;
 	display: block;
@@ -136,7 +136,7 @@ Home sections
 	margin-bottom: 20px;
 }
 
-	
+
 /* --- section bg var --- */
 
 .bg-white {
@@ -168,14 +168,16 @@ Home sections
 Spacer
 ============================= */
 
-#spacer1{	
+#spacer1{
 	background-image: url(../img/spacer/1.png);
 	background-repeat:no-repeat;
+	background-position: center;
 
 }
-#spacer2{	
+#spacer2{
 	background-image: url(../img/spacer/2.png);
 	background-repeat:no-repeat;
+	background-position: center;
 }
 
 
@@ -213,10 +215,10 @@ Intro
 	color:#fff;
 	text-align:center;
 	font-weight: 700;
-	font-size: 40px; 
+	font-size: 40px;
 	line-height:1.1em;
 	padding-top:30px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 .intro-text h1 a:hover {
 	text-decoration: none;
@@ -471,13 +473,13 @@ Works
 	width: 260px;
 }
 .lb-overlay a.lb-close{
-	
+
 	z-index: 1001;
 	color: #2c3e50;
 	position: absolute;
 	top: 43px;
 	left: 50%;
-	
+
 	font-size: 28px;
 	line-height: 26px;
 	text-align: center;
@@ -543,9 +545,9 @@ Works
   100% { transform: scale(1); opacity: 1; }
 }
 
-/* 
-	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
-	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+/*
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens
+	http://bricss.net/post/11230266445/css-hack-to-target-opera
 */
 x:-o-prefocus, .lb-overlay img {
     height: 100%;
@@ -554,7 +556,7 @@ x:-o-prefocus, .lb-overlay img {
 #works .container .row .section-heading .texto-works{
 
 	font-size: 18px;
-	color: #2c3e50;	
+	color: #2c3e50;
 }
 
 
@@ -566,7 +568,7 @@ Contact
 /* ================================
 Bottom widget
 ================================= */
-ul.social-network {	
+ul.social-network {
 	margin: 0;
 	margin-left:0;
 	padding-left: 0;
@@ -604,8 +606,7 @@ more media queries
 
 @media (max-width:768px) {
 	#intro{
-		background-image: url(../img/bg-mac.png);
-		background-size:100%;
+		background-image: url(../img/home-bg.png);
 	}
 	.box-team, .box-team img {
 		text-align: center;
@@ -613,12 +614,12 @@ more media queries
 	.box-team img {
 		float: none;
 		margin:0 auto;
-	}	
+	}
 	.box-team {
 		margin-bottom: 30px;
 	}
 
-	
+
 }
 
 @media (max-width:992px) {
@@ -632,6 +633,6 @@ more media queries
 
 @media (max-width:480px){
 	#intro{
-		background-image: none;
+		background-image: url(../img/home-bg.png);
 	}
 }

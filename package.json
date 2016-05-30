@@ -1,0 +1,32 @@
+{
+  "name": "warairadev",
+  "version": "1.0.0",
+  "description": "web oficial waraira developers c.a",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warairadevs/Web-Waraira-Developers.git"
+  },
+  "keywords": [
+    "developer",
+    "waraira",
+    "caracas",
+    "web",
+    "nodejs"
+  ],
+  "author": "chuxolatouz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warairadevs/Web-Waraira-Developers/issues"
+  },
+  "homepage": "https://github.com/warairadevs/Web-Waraira-Developers#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "email-templates": "0.0.5",
+    "nodemailer": "0.3.x",
+    "nodemailer-express-handlebars": "1.0.0"
+  }
+}

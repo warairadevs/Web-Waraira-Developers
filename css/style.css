@@ -196,13 +196,13 @@ Spacer
 #spacer2 h2 {
 
 	font-size: 35px;
-	
+
 }
 
 #spacer2 p {
 
 	font-size: 20px;
-	
+
 }
 
 
@@ -284,6 +284,9 @@ Intro
 /* ================================
 About
 ================================= */
+#about{
+	background-color: #ecf0f1 !important;
+}
 
 #team-scroller .designation {
   margin-top: 10px;
@@ -341,7 +344,7 @@ About
 }
 
 
-ul.social-network {	
+ul.social-network {
 	margin: 0;
 	margin-left:0;
 	padding-left: 0;
@@ -435,7 +438,7 @@ ul.social-network li a:hover span .fa-circle {
     visibility: visible;
     color: #fff;
     background: #2ecc71;
-    opacity: 0.85;  
+    opacity: 0.85;
     height: 100%;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -943,4 +946,3 @@ more media queries
 		background-image: url(../img/home-bg.png);
 	}
 }
-
